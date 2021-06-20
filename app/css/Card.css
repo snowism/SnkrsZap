@@ -1,0 +1,119 @@
+.card-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #ecedef;
+  width: 360px;
+  text-align: center;
+  margin: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.product-img {
+  height: 150px;
+}
+
+.select-box {
+  width: 360px;
+  margin: 0.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.select-box div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.select-box div img {
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: block;
+  position: absolute;
+}
+
+.icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  float: right;
+  top: 0;
+}
+
+.icon-box button {
+  border: none;
+  color: gray;
+}
+
+.comment-card {
+  background-color: #ecedef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+  position: relative;
+}
+
+.comment-card .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comment-card .row p {
+  font-weight: bold;
+}
+
+.comment-card .row .co-icon-box {
+  position: absolute;
+  float: right;
+  background-color: green;
+}
+
+.comment-card span {
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 1rem;
+}
+
+.review-box {
+  text-align: left;
+}
+/*# sourceMappingURL=Card.css.map */

@@ -1,0 +1,81 @@
+.form-wrapper {
+  width: 400px;
+  padding: 0.2rem;
+  text-align: center;
+
+  div {
+    margin: 1.2rem;
+    padding: 1rem;
+  }
+  label {
+    margin-right: 1rem;
+    float: left;
+  }
+
+  input {
+    width: 200px;
+    background-color: #ecedef;
+    float: right;
+    border: 0;
+    height: 26px;
+  }
+}
+
+.submit-btn {
+  font-family: "Roboto", sans-serif;
+  margin-top: 2rem;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+}
+
+//comments form
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.6rem;
+}
+
+.co-form-wrapper {
+
+  // width: 400px;
+  
+  padding: 0.4rem;
+  // background-color: red;
+  position: relative;
+
+  label {
+    margin-right: 1rem;
+    float: left;
+    
+  }
+
+  input {
+    width: 120px;
+    background-color: #ecedef;
+    margin-right: 1rem;
+    border: 0;
+    height: 26px;
+
+  }
+
+  textarea {
+    
+width: 250px;
+
+  }
+
+ 
+}
+
+
+.cw {
+
+  height: 200px;
+  background-color: blue;
+
+}

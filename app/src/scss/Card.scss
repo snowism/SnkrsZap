@@ -1,0 +1,115 @@
+$cardColor: #ecedef;
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+position: relative;
+
+}
+
+.card {
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 20px;
+  background-color: $cardColor;
+  width: 360px;
+  text-align: center;
+  margin: 0.6rem;
+  margin-bottom: 2rem;
+  position: relative;
+  // padding: 1rem;
+}
+
+.product-img {
+  height: 150px;
+}
+
+.select-box {
+  width: 360px;
+  margin: 0.6rem;
+  display: flex;
+  justify-content: space-evenly;
+
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+
+    img {
+      width: 70%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: block;
+      position: absolute;
+    }
+  }
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  top: 0;
+  
+
+  
+  button {
+    border: none;
+    color:gray;
+  }
+
+}
+
+
+// comments
+
+.comment-card {
+  background-color: $cardColor;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+position: relative;
+height: 100px;
+overflow: scroll;
+
+
+  .row {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    p {
+      font-weight: bold;
+    }
+
+    .co-icon-box {
+      position: absolute;
+      float: right;
+      background-color: green;
+    }
+  
+  }
+
+  span {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1rem;
+  }
+
+}
+
+
+.review-box {
+  
+  text-align: left;
+  
+}
+
+

@@ -1,0 +1,104 @@
+// details page
+
+.detail-wrapper {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+  
+  
+}
+
+.detail-box {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ecedef ;
+}
+.detail-img {
+  width: 200px;
+}
+
+
+  
+
+  .select-size {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  padding: 1rem;
+ 
+  
+  button {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    border: 0;
+
+
+    span {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+    }
+  }
+}
+
+
+.total-price {
+  height: 40px;
+  margin-top: 1rem;
+  padding: auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.button-box {
+  height: 40px;
+  margin-top: 1rem;
+  padding: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 60px;
+  width: 400px;
+ }
+
+
+.select-price {
+    //   background-color: red;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+      height: 40px;
+    
+      display: flex;
+      flex-direction: column;
+    padding: 1rem;
+    
+      
+    
+    }
+
+    
+    .comment {
+      width: 420px;
+      height: 280px;
+     border-top: 1px grey solid;
+     border-bottom: 1px grey solid;
+      overflow: scroll;
+    }
+
+
+    
+//button
+
+    .return {
+width: 200px;
+height: 60px;
+border-radius: 2px;
+    }
+
+

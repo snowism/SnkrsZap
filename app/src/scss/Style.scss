@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+
+$bgColor: #e3e0d8;
+
+
+body {
+    
+    background-color: $bgColor;
+    font-family: 'Roboto', sans-serif;
+  
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    
+  }
+
+  .wrapper {
+      align-items: center;
+  }
+
+
+  .title {
+      padding: 0.6rem;
+  }
+
+
+//user-profile
+
+  .user {
+   img {
+       margin-top: 3rem;
+       width: 150px;
+   }
+    
+      text-align: center;
+  }
+
+
+  // payment 
+
+  .payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    
+}
+
+
+.form-pay {
+    background-color: transparent;
+    border:1px solid black;
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+
+
+    input{
+        width: 290px;
+        height: 50px;
+        background-color: transparent;
+        border: solid 0.2px black;
+        border-radius: 4px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+     }
+     
+}
+
+.form_container{
+    margin-left: 25px;
+
+    
+h1{
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+h2{
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 800;
+   font-size: 15px;
+   letter-spacing: 0.5px;
+   color: black;
+   margin-top: 20px;
+   
+}
+}
+
+
+
+
+
+
+
+// order-confirm
+
+
+.order-confirm {
+    img {
+        margin-top: 3rem;
+        width: 150px;
+    }
+    text-align: center;
+
+   
+}    
+
+
+
+
+
